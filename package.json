@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "API project for freeCodeCamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "npm start"
+  },
+  "author": "arthurvilas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3",
+    "nanoid": "^3.1.25",
+    "valid-url": "^1.0.9"
+  }
+}
